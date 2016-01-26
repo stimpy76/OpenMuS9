@@ -1,4 +1,4 @@
-//Microsoft Developer Studio generated resource script.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -16,13 +16,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Russian resources
+// Russian (Russia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-#ifdef _WIN32
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -30,7 +28,7 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
@@ -43,16 +41,13 @@ END
 // Dialog
 //
 
-IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 443, 220
-STYLE DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
-    WS_CAPTION | WS_SYSMENU
-CAPTION "Dialog"
+IDD_DIALOG1 DIALOGEX 0, 0, 443, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "OpenMu-MS"
 MENU IDR_MENU1
-FONT 8, "MS Shell Dlg"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
 BEGIN
-    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
-                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | WS_TABSTOP,0,
-                    0,443,206
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",TCS_HOTTRACK | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_VSCROLL | WS_TABSTOP,0,0,443,206
 END
 
 
@@ -62,7 +57,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO DISCARDABLE 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_DIALOG1, DIALOG
     BEGIN
@@ -77,7 +72,7 @@ END
 // Menu
 //
 
-IDR_MENU1 MENU DISCARDABLE 
+IDR_MENU1 MENU
 BEGIN
     POPUP "File"
     BEGIN
@@ -93,18 +88,27 @@ BEGIN
     END
 END
 
-#endif    // Russian resources
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -112,7 +116,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 // TEXTINCLUDE
 //
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE 
 BEGIN
     "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
     "#include ""windows.h""\r\n"
@@ -121,7 +125,7 @@ BEGIN
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE 
 BEGIN
     "\r\n"
     "\0"
@@ -136,35 +140,39 @@ END
 //
 
 IDD_ABOUTBOX DIALOGEX 22, 17, 205, 54
-STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_TOOLWINDOW
 CAPTION "About"
 FONT 8, "System", 0, 0, 0x1
 BEGIN
     ICON            IDI_EDATASERVER2,IDC_MYICON,14,9,20,20
-    LTEXT           "eDataServer2 Version 2.0",IDC_STATIC,49,10,92,8,
-                    SS_NOPREFIX
-    LTEXT           "Copyright (C) 2009",IDC_STATIC,49,20,78,8
+    LTEXT           "OpenMu-MS 1.0.0.1",IDC_STATIC,49,10,92,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,49,20,78,8
     DEFPUSHBUTTON   "OK",IDOK,156,11,36,14,WS_GROUP
 END
 
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Icon
+// DESIGNINFO
 //
 
-// Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
-IDI_EDATASERVER2        ICON    DISCARDABLE     "zMultiServer.ICO"
-IDI_SMALL               ICON    DISCARDABLE     "zMultiServerSmall.ICO"
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Menu
 //
 
-IDC_EDATASERVER2 MENU DISCARDABLE 
+IDC_EDATASERVER2 MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -183,10 +191,22 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_EDATASERVER2        ICON                    "OpenMu.ICO"
+
+IDI_SMALL               ICON                    "OpenMu-small.ICO"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // Accelerator
 //
 
-IDC_EDATASERVER2 ACCELERATORS MOVEABLE PURE 
+IDC_EDATASERVER2 ACCELERATORS
 BEGIN
     "?",            IDM_ABOUT,              ASCII,  ALT
     "/",            IDM_ABOUT,              ASCII,  ALT
@@ -198,22 +218,22 @@ END
 // String Table
 //
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "eDataServer2"
-    IDC_EDATASERVER2        "EDATASERVER2"
+    IDS_APP_TITLE           "OpenMu-MS"
+    IDC_EDATASERVER2        "OPENMU-MS"
     IDS_JOINSERVER          "JoinServer"
     IDS_DATASERVER          "DataServer"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     IDS_EVENTSERVER         "EventServer"
     IDS_RANKINGSERVER       "Ranking"
     IDS_CASHSHOPSERVER      "CashShop"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

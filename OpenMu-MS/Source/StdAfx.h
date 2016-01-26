@@ -34,8 +34,8 @@
 // Local Header Files
 #include "ProDef.h"
 
-#define APP_NAME		"zMultiServer"
-#define	APP_VERSION		"1.0.0.0"
+#define APP_NAME		"OpenMu-MS"
+#define	APP_VERSION		"1.0.0.1"
 
 #define S6EP2				0
 #define EX700				1
