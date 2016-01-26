@@ -19,16 +19,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
-    <None Include="small.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="tempLauncher.ico">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="IDC_ICON4.bmp">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icon1.ico">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
@@ -66,5 +57,13 @@
     <Library Include="VMProtectSDK32.lib">
       <Filter>VMProtectSDK</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="OpenMu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="OpenMu-small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
