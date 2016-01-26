@@ -57,7 +57,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="main.ico">
+    <Image Include="OpenMu-main.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
