@@ -28,5 +28,9 @@ namespace zFileMgr
             System.Diagnostics.Process.Start("http://z-team.pro/");
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

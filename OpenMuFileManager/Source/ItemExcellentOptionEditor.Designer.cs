@@ -111,7 +111,7 @@
             // zTeamToolStripMenuItem
             // 
             this.zTeamToolStripMenuItem.Name = "zTeamToolStripMenuItem";
-            this.zTeamToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.zTeamToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.zTeamToolStripMenuItem.Text = "zTeam";
             this.zTeamToolStripMenuItem.Click += new System.EventHandler(this.zTeamToolStripMenuItem_Click);
             // 
@@ -149,8 +149,8 @@
             this.listBoxCategory.Name = "listBoxCategory";
             this.listBoxCategory.Size = new System.Drawing.Size(143, 108);
             this.listBoxCategory.TabIndex = 0;
-            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBoxCategory_DataSourceChanged);
             this.listBoxCategory.SelectedIndexChanged += new System.EventHandler(this.listBoxCategory_SelectedIndexChanged);
+            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBoxCategory_DataSourceChanged);
             // 
             // groupBox2
             // 
@@ -422,7 +422,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ItemExcellentOptionEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Item Excellent Option Editor";
+            this.Text = "OpenMuFileManager :: Item Excellent Option Editor";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

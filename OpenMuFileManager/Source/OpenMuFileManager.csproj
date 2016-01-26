@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>zFileMgr</RootNamespace>
-    <AssemblyName>zFileManager</AssemblyName>
+    <AssemblyName>OpenMuFileManager</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -50,7 +50,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>ICON.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -243,7 +244,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ICON.ico" />
+    <Content Include="OpenMu.ico" />
     <Content Include="Readme.txt" />
     <None Include="Resources\Page_Right_State1.png" />
     <None Include="Resources\Page_Left_State1.png" />

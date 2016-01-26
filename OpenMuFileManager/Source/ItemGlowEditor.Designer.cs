@@ -35,24 +35,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.listBoxItems = new System.Windows.Forms.ListBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.numericUpDownIndex = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.numericUpDownCategory = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDownIndex = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDownCategory = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownIndex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCategory)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button4
@@ -99,8 +99,8 @@
             this.listBoxCategory.Name = "listBoxCategory";
             this.listBoxCategory.Size = new System.Drawing.Size(143, 108);
             this.listBoxCategory.TabIndex = 0;
-            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBoxCategory_DataSourceChanged);
             this.listBoxCategory.SelectedIndexChanged += new System.EventHandler(this.listBoxCategory_SelectedIndexChanged);
+            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBoxCategory_DataSourceChanged);
             // 
             // button1
             // 
@@ -135,6 +135,66 @@
             this.groupBox8.TabIndex = 7;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Properties";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "Category:";
+            // 
+            // numericUpDownIndex
+            // 
+            this.numericUpDownIndex.Location = new System.Drawing.Point(64, 51);
+            this.numericUpDownIndex.Maximum = new decimal(new int[] {
+            512,
+            0,
+            0,
+            0});
+            this.numericUpDownIndex.Name = "numericUpDownIndex";
+            this.numericUpDownIndex.Size = new System.Drawing.Size(93, 20);
+            this.numericUpDownIndex.TabIndex = 40;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 53);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Index:";
+            // 
+            // numericUpDownCategory
+            // 
+            this.numericUpDownCategory.Location = new System.Drawing.Point(64, 25);
+            this.numericUpDownCategory.Maximum = new decimal(new int[] {
+            15,
+            0,
+            0,
+            0});
+            this.numericUpDownCategory.Name = "numericUpDownCategory";
+            this.numericUpDownCategory.Size = new System.Drawing.Size(93, 20);
+            this.numericUpDownCategory.TabIndex = 38;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 109);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Left mouse click for pick color";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(169, 25);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(277, 99);
+            this.panel1.TabIndex = 1;
+            this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseClick);
             // 
             // button2
             // 
@@ -192,69 +252,9 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(169, 25);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(277, 99);
-            this.panel1.TabIndex = 1;
-            this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseClick);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 109);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Left mouse click for pick color";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "Category:";
-            // 
-            // numericUpDownIndex
-            // 
-            this.numericUpDownIndex.Location = new System.Drawing.Point(64, 51);
-            this.numericUpDownIndex.Maximum = new decimal(new int[] {
-            512,
-            0,
-            0,
-            0});
-            this.numericUpDownIndex.Name = "numericUpDownIndex";
-            this.numericUpDownIndex.Size = new System.Drawing.Size(93, 20);
-            this.numericUpDownIndex.TabIndex = 40;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "Index:";
-            // 
-            // numericUpDownCategory
-            // 
-            this.numericUpDownCategory.Location = new System.Drawing.Point(64, 25);
-            this.numericUpDownCategory.Maximum = new decimal(new int[] {
-            15,
-            0,
-            0,
-            0});
-            this.numericUpDownCategory.Name = "numericUpDownCategory";
-            this.numericUpDownCategory.Size = new System.Drawing.Size(93, 20);
-            this.numericUpDownCategory.TabIndex = 38;
             // 
             // ItemGlowEditor
             // 
@@ -270,15 +270,15 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ItemGlowEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Item Glow Editor";
+            this.Text = "OpenMuFileManager :: Item Glow Editor";
             this.groupBox1.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownIndex)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCategory)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownIndex)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCategory)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutBox));
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_product = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,9 +56,9 @@
             this.lbl_product.AutoSize = true;
             this.lbl_product.Location = new System.Drawing.Point(95, 9);
             this.lbl_product.Name = "lbl_product";
-            this.lbl_product.Size = new System.Drawing.Size(70, 13);
+            this.lbl_product.Size = new System.Drawing.Size(106, 13);
             this.lbl_product.TabIndex = 1;
-            this.lbl_product.Text = "zFileManager";
+            this.lbl_product.Text = "OpenMuFileManager";
             // 
             // label3
             // 
@@ -75,7 +76,7 @@
             this.lbl_ver.Name = "lbl_ver";
             this.lbl_ver.Size = new System.Drawing.Size(40, 13);
             this.lbl_ver.TabIndex = 3;
-            this.lbl_ver.Text = "1.0.0.0";
+            this.lbl_ver.Text = "1.0.0.1";
             this.lbl_ver.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label5
@@ -110,9 +111,9 @@
             this.lbl_build.AutoSize = true;
             this.lbl_build.Location = new System.Drawing.Point(95, 92);
             this.lbl_build.Name = "lbl_build";
-            this.lbl_build.Size = new System.Drawing.Size(29, 13);
+            this.lbl_build.Size = new System.Drawing.Size(83, 13);
             this.lbl_build.TabIndex = 7;
-            this.lbl_build.Text = "build";
+            this.lbl_build.Text = "Januari 26 2016";
             // 
             // button1
             // 
@@ -127,20 +128,21 @@
             // lbl_copyright
             // 
             this.lbl_copyright.AutoSize = true;
-            this.lbl_copyright.Location = new System.Drawing.Point(139, 126);
+            this.lbl_copyright.Location = new System.Drawing.Point(148, 126);
             this.lbl_copyright.Name = "lbl_copyright";
-            this.lbl_copyright.Size = new System.Drawing.Size(125, 13);
+            this.lbl_copyright.Size = new System.Drawing.Size(134, 13);
             this.lbl_copyright.TabIndex = 9;
-            this.lbl_copyright.Text = "Copyright © 2014 zTeam";
+            this.lbl_copyright.Text = "Copyright © 2016 OpenMu";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(158, 139);
+            this.label4.Location = new System.Drawing.Point(156, 139);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 13);
+            this.label4.Size = new System.Drawing.Size(122, 13);
             this.label4.TabIndex = 10;
-            this.label4.Text = "www.z-team.pro";
+            this.label4.Text = "Thanks www.z-team.pro";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // AboutBox
             // 
@@ -159,9 +161,10 @@
             this.Controls.Add(this.lbl_product);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AboutBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: About";
+            this.Text = "OpenMuFileManager :: About";
             this.ResumeLayout(false);
             this.PerformLayout();
 

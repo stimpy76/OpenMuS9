@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NormalShopEditor));
             this.combobox_item_cat = new System.Windows.Forms.ComboBox();
             this.combobox_item_name = new System.Windows.Forms.ComboBox();
             this.checkbox_skill = new System.Windows.Forms.CheckBox();
@@ -142,9 +143,10 @@
             this.Controls.Add(this.picturebox_inventory);
             this.Controls.Add(this.group_newitem);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "NormalShopEditor";
-            this.Text = "NormalShop";
+            this.Text = "OpenMuFileManager::NormalShop";
             this.Load += new System.EventHandler(this.NormalShopEditor_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

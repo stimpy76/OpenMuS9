@@ -298,7 +298,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CommonEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Client Common ";
+            this.Text = "OpenMuFileManager :: Client Common ";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

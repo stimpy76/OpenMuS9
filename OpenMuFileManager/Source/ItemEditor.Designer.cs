@@ -209,8 +209,8 @@
             this.listBoxCategory.Name = "listBoxCategory";
             this.listBoxCategory.Size = new System.Drawing.Size(143, 108);
             this.listBoxCategory.TabIndex = 0;
-            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBox1_DataSourceChanged);
             this.listBoxCategory.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBoxCategory.DataSourceChanged += new System.EventHandler(this.listBox1_DataSourceChanged);
             // 
             // groupBox2
             // 
@@ -1310,7 +1310,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ItemEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Item Editor";
+            this.Text = "OpenMuFileManager :: Item Editor";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

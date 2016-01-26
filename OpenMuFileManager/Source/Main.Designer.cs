@@ -82,6 +82,7 @@
             this.customToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.commonzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itemModelzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemExcellentOptionzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gameShopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,7 +98,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.itemExcellentOptionzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -169,7 +169,7 @@
             this.infoTooltipTextbmdToolStripMenuItem,
             this.helpDatabmdToolStripMenuItem});
             this.filesToolStripMenuItem.Name = "filesToolStripMenuItem";
-            this.filesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.filesToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.filesToolStripMenuItem.Text = "Configuration";
             // 
             // itemToolStripMenuItem
@@ -188,7 +188,7 @@
             this.jewelOfHarmonySmeltbmdToolStripMenuItem,
             this.socketItembmdToolStripMenuItem1});
             this.itemToolStripMenuItem.Name = "itemToolStripMenuItem";
-            this.itemToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.itemToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.itemToolStripMenuItem.Text = "Item";
             // 
             // itembmdToolStripMenuItem1
@@ -284,34 +284,34 @@
             this.monsterSkillbmdToolStripMenuItem2,
             this.skillbmdToolStripMenuItem1});
             this.skillToolStripMenuItem.Name = "skillToolStripMenuItem";
-            this.skillToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.skillToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.skillToolStripMenuItem.Text = "Skill";
             // 
             // masterSkillTooltipbmdToolStripMenuItem2
             // 
             this.masterSkillTooltipbmdToolStripMenuItem2.Name = "masterSkillTooltipbmdToolStripMenuItem2";
-            this.masterSkillTooltipbmdToolStripMenuItem2.Size = new System.Drawing.Size(206, 22);
+            this.masterSkillTooltipbmdToolStripMenuItem2.Size = new System.Drawing.Size(205, 22);
             this.masterSkillTooltipbmdToolStripMenuItem2.Text = "MasterSkillTooltip.bmd";
             this.masterSkillTooltipbmdToolStripMenuItem2.Click += new System.EventHandler(this.masterSkillTooltipbmdToolStripMenuItem2_Click);
             // 
             // masterSkillTreeDatabmdToolStripMenuItem2
             // 
             this.masterSkillTreeDatabmdToolStripMenuItem2.Name = "masterSkillTreeDatabmdToolStripMenuItem2";
-            this.masterSkillTreeDatabmdToolStripMenuItem2.Size = new System.Drawing.Size(206, 22);
+            this.masterSkillTreeDatabmdToolStripMenuItem2.Size = new System.Drawing.Size(205, 22);
             this.masterSkillTreeDatabmdToolStripMenuItem2.Text = "MasterSkillTreeData.bmd";
             this.masterSkillTreeDatabmdToolStripMenuItem2.Click += new System.EventHandler(this.masterSkillTreeDatabmdToolStripMenuItem2_Click);
             // 
             // monsterSkillbmdToolStripMenuItem2
             // 
             this.monsterSkillbmdToolStripMenuItem2.Name = "monsterSkillbmdToolStripMenuItem2";
-            this.monsterSkillbmdToolStripMenuItem2.Size = new System.Drawing.Size(206, 22);
+            this.monsterSkillbmdToolStripMenuItem2.Size = new System.Drawing.Size(205, 22);
             this.monsterSkillbmdToolStripMenuItem2.Text = "MonsterSkill.bmd";
             this.monsterSkillbmdToolStripMenuItem2.Click += new System.EventHandler(this.monsterSkillbmdToolStripMenuItem2_Click);
             // 
             // skillbmdToolStripMenuItem1
             // 
             this.skillbmdToolStripMenuItem1.Name = "skillbmdToolStripMenuItem1";
-            this.skillbmdToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
+            this.skillbmdToolStripMenuItem1.Size = new System.Drawing.Size(205, 22);
             this.skillbmdToolStripMenuItem1.Text = "Skill.bmd";
             this.skillbmdToolStripMenuItem1.Click += new System.EventHandler(this.skillbmdToolStripMenuItem1_Click);
             // 
@@ -322,7 +322,7 @@
             this.questProgressbmdToolStripMenuItem1,
             this.questWordsbmdToolStripMenuItem1});
             this.questToolStripMenuItem.Name = "questToolStripMenuItem";
-            this.questToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.questToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.questToolStripMenuItem.Text = "Quest";
             // 
             // questbmdToolStripMenuItem
@@ -349,14 +349,14 @@
             // buffEffectbmdToolStripMenuItem1
             // 
             this.buffEffectbmdToolStripMenuItem1.Name = "buffEffectbmdToolStripMenuItem1";
-            this.buffEffectbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.buffEffectbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.buffEffectbmdToolStripMenuItem1.Text = "BuffEffect.bmd";
             this.buffEffectbmdToolStripMenuItem1.Click += new System.EventHandler(this.buffEffectbmdToolStripMenuItem1_Click);
             // 
             // creditbmdToolStripMenuItem
             // 
             this.creditbmdToolStripMenuItem.Name = "creditbmdToolStripMenuItem";
-            this.creditbmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.creditbmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.creditbmdToolStripMenuItem.Text = "Credit.bmd";
             this.creditbmdToolStripMenuItem.Click += new System.EventHandler(this.creditbmdToolStripMenuItem_Click);
             // 
@@ -364,41 +364,41 @@
             // 
             this.dialogbmdToolStripMenuItem1.Enabled = false;
             this.dialogbmdToolStripMenuItem1.Name = "dialogbmdToolStripMenuItem1";
-            this.dialogbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.dialogbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.dialogbmdToolStripMenuItem1.Text = "Dialog.bmd";
             // 
             // gatebmdToolStripMenuItem
             // 
             this.gatebmdToolStripMenuItem.Name = "gatebmdToolStripMenuItem";
-            this.gatebmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.gatebmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.gatebmdToolStripMenuItem.Text = "Gate.bmd";
             this.gatebmdToolStripMenuItem.Click += new System.EventHandler(this.gatebmdToolStripMenuItem_Click);
             // 
             // filterbmdToolStripMenuItem1
             // 
             this.filterbmdToolStripMenuItem1.Name = "filterbmdToolStripMenuItem1";
-            this.filterbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.filterbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.filterbmdToolStripMenuItem1.Text = "Filter.bmd";
             this.filterbmdToolStripMenuItem1.Click += new System.EventHandler(this.filterbmdToolStripMenuItem1_Click);
             // 
             // filterNamebmdToolStripMenuItem1
             // 
             this.filterNamebmdToolStripMenuItem1.Name = "filterNamebmdToolStripMenuItem1";
-            this.filterNamebmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.filterNamebmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.filterNamebmdToolStripMenuItem1.Text = "FilterName.bmd";
             this.filterNamebmdToolStripMenuItem1.Click += new System.EventHandler(this.filterNamebmdToolStripMenuItem1_Click);
             // 
             // movereqbmdToolStripMenuItem1
             // 
             this.movereqbmdToolStripMenuItem1.Name = "movereqbmdToolStripMenuItem1";
-            this.movereqbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.movereqbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.movereqbmdToolStripMenuItem1.Text = "Movereq.bmd";
             this.movereqbmdToolStripMenuItem1.Click += new System.EventHandler(this.movereqbmdToolStripMenuItem1_Click);
             // 
             // MinimaptoolStripMenuItem1
             // 
             this.MinimaptoolStripMenuItem1.Name = "MinimaptoolStripMenuItem1";
-            this.MinimaptoolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.MinimaptoolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.MinimaptoolStripMenuItem1.Text = "Minimap.bmd";
             this.MinimaptoolStripMenuItem1.Click += new System.EventHandler(this.MinimaptoolStripMenuItem1_Click);
             // 
@@ -406,63 +406,63 @@
             // 
             this.petbmdToolStripMenuItem.Enabled = false;
             this.petbmdToolStripMenuItem.Name = "petbmdToolStripMenuItem";
-            this.petbmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.petbmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.petbmdToolStripMenuItem.Text = "Pet.bmd";
             // 
             // petDatabmdToolStripMenuItem
             // 
             this.petDatabmdToolStripMenuItem.Enabled = false;
             this.petDatabmdToolStripMenuItem.Name = "petDatabmdToolStripMenuItem";
-            this.petDatabmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.petDatabmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.petDatabmdToolStripMenuItem.Text = "PetData.bmd";
             this.petDatabmdToolStripMenuItem.Click += new System.EventHandler(this.petDatabmdToolStripMenuItem_Click);
             // 
             // serverListbmdToolStripMenuItem1
             // 
             this.serverListbmdToolStripMenuItem1.Name = "serverListbmdToolStripMenuItem1";
-            this.serverListbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.serverListbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.serverListbmdToolStripMenuItem1.Text = "ServerList.bmd";
             this.serverListbmdToolStripMenuItem1.Click += new System.EventHandler(this.serverListbmdToolStripMenuItem1_Click);
             // 
             // slidebmdToolStripMenuItem1
             // 
             this.slidebmdToolStripMenuItem1.Name = "slidebmdToolStripMenuItem1";
-            this.slidebmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.slidebmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.slidebmdToolStripMenuItem1.Text = "Slide.bmd";
             this.slidebmdToolStripMenuItem1.Click += new System.EventHandler(this.slidebmdToolStripMenuItem1_Click);
             // 
             // textbmdToolStripMenuItem1
             // 
             this.textbmdToolStripMenuItem1.Name = "textbmdToolStripMenuItem1";
-            this.textbmdToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.textbmdToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.textbmdToolStripMenuItem1.Text = "Text.bmd";
             this.textbmdToolStripMenuItem1.Click += new System.EventHandler(this.textbmdToolStripMenuItem1_Click);
             // 
             // nPCDialoguebmdToolStripMenuItem
             // 
             this.nPCDialoguebmdToolStripMenuItem.Name = "nPCDialoguebmdToolStripMenuItem";
-            this.nPCDialoguebmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.nPCDialoguebmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.nPCDialoguebmdToolStripMenuItem.Text = "NPCDialog.bmd";
             this.nPCDialoguebmdToolStripMenuItem.Click += new System.EventHandler(this.nPCDialoguebmdToolStripMenuItem_Click);
             // 
             // nPCNamebmdToolStripMenuItem
             // 
             this.nPCNamebmdToolStripMenuItem.Name = "nPCNamebmdToolStripMenuItem";
-            this.nPCNamebmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.nPCNamebmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.nPCNamebmdToolStripMenuItem.Text = "NPCName.bmd";
             this.nPCNamebmdToolStripMenuItem.Click += new System.EventHandler(this.nPCNamebmdToolStripMenuItem_Click);
             // 
             // infoTooltipTextbmdToolStripMenuItem
             // 
             this.infoTooltipTextbmdToolStripMenuItem.Name = "infoTooltipTextbmdToolStripMenuItem";
-            this.infoTooltipTextbmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.infoTooltipTextbmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.infoTooltipTextbmdToolStripMenuItem.Text = "InfoTooltipText.bmd";
             this.infoTooltipTextbmdToolStripMenuItem.Click += new System.EventHandler(this.infoToolstripTextbmdToolStripMenuItem_Click);
             // 
             // helpDatabmdToolStripMenuItem
             // 
             this.helpDatabmdToolStripMenuItem.Name = "helpDatabmdToolStripMenuItem";
-            this.helpDatabmdToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.helpDatabmdToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.helpDatabmdToolStripMenuItem.Text = "HelpData.bmd";
             this.helpDatabmdToolStripMenuItem.Click += new System.EventHandler(this.helpDatabmdToolStripMenuItem_Click);
             // 
@@ -472,7 +472,7 @@
             this.imagesToolStripMenuItem1,
             this.modelsToolStripMenuItem1});
             this.modiaToolStripMenuItem.Name = "modiaToolStripMenuItem";
-            this.modiaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.modiaToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.modiaToolStripMenuItem.Text = "Media";
             // 
             // imagesToolStripMenuItem1
@@ -495,7 +495,7 @@
             this.muErrorlogToolStripMenuItem,
             this.langiniToolStripMenuItem});
             this.otherToolStripMenuItem1.Name = "otherToolStripMenuItem1";
-            this.otherToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.otherToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
             this.otherToolStripMenuItem1.Text = "Other";
             // 
             // muErrorlogToolStripMenuItem
@@ -519,7 +519,7 @@
             this.itemModelzToolStripMenuItem,
             this.itemExcellentOptionzToolStripMenuItem});
             this.customToolStripMenuItem.Name = "customToolStripMenuItem";
-            this.customToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.customToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.customToolStripMenuItem.Text = "Custom";
             // 
             // commonzToolStripMenuItem
@@ -535,6 +535,13 @@
             this.itemModelzToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.itemModelzToolStripMenuItem.Text = "ItemGlow.z";
             this.itemModelzToolStripMenuItem.Click += new System.EventHandler(this.itemModelzToolStripMenuItem_Click);
+            // 
+            // itemExcellentOptionzToolStripMenuItem
+            // 
+            this.itemExcellentOptionzToolStripMenuItem.Name = "itemExcellentOptionzToolStripMenuItem";
+            this.itemExcellentOptionzToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.itemExcellentOptionzToolStripMenuItem.Text = "ItemExcellentOption.z";
+            this.itemExcellentOptionzToolStripMenuItem.Click += new System.EventHandler(this.itemExcellentOptionzToolStripMenuItem_Click);
             // 
             // serverToolStripMenuItem
             // 
@@ -611,7 +618,7 @@
             // 
             this.mapattFilesToolStripMenuItem.Enabled = false;
             this.mapattFilesToolStripMenuItem.Name = "mapattFilesToolStripMenuItem";
-            this.mapattFilesToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.mapattFilesToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.mapattFilesToolStripMenuItem.Text = "Terrain.att";
             // 
             // helpToolStripMenuItem
@@ -655,13 +662,6 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // itemExcellentOptionzToolStripMenuItem
-            // 
-            this.itemExcellentOptionzToolStripMenuItem.Name = "itemExcellentOptionzToolStripMenuItem";
-            this.itemExcellentOptionzToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.itemExcellentOptionzToolStripMenuItem.Text = "ItemExcellentOption.z";
-            this.itemExcellentOptionzToolStripMenuItem.Click += new System.EventHandler(this.itemExcellentOptionzToolStripMenuItem_Click);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -676,7 +676,7 @@
             this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Main";
+            this.Text = "OpenMuFileManager :: Main";
             this.Load += new System.EventHandler(this.Main_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

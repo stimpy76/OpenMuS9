@@ -123,4 +123,29 @@
   <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAADM/wAAzP8AAMz/AADM/wAAzP8AAMz/AAC5/wAAuf8AAMz/AADM/wAAzP8AAMz/AADM/wAA
+        zP8AAAAAAADM/wAAzP8AAMz/AADM/wAAzP8AAMz/AADM/wAAlv8AAJb/AADM/wAAzP8AAMz/AADM/wAA
+        zP8AAMz/AADM/wAAzP8AAMz/AACz/wAAvv8AAMz/AADM/wAAxf8AAHP/AABz/wAAxf8AAMz/AADM/wAA
+        v/8AALP/AADM/wAAzP8AAMz/AADM/wAAv/8AAGr/AACi/wAAjf8AAHP/AABl/wAAZf8AAHP/AACN/wAA
+        ov8AAGr/AAC//wAAzP8AAMz/AADM/wAAzP8AAMz/AACj/wAAf/8AALH/AACU/wAAZf8AAGX/AACU/wAA
+        sf8AAH//AACj/wAAzP8AAMz/AADM/wAAzP8AAMz/AABT/wAAAP8AAEj/AAAA/wAANv8AAAD/AABB/wAA
+        AP8AAAD/AAAA/wAAAP8AAFP/AADM/wAAzP8AAMz/AADM/wAAAP//////AAAA//////8AAAD//////wAA
+        AP//////////////////////AAAA/wAAzP8AAMz/AAC4/wAAl/8AAAD//////wAAAP//////AAAA////
+        //8AAAD//////wAAAP8AAAD//////wAAAP8AAJf/AAC4/wAAuv8AAJf/AAAA//////8AAAD//////wAA
+        AP//////AAAA//////8AAAD/AAAA//////8AAAD/AACX/wAAuv8AAMz/AADM/wAAAP///////////wAA
+        AP///////////wAAAP//////AAAA/wAAAP//////AAAA/wAAzP8AAMz/AADM/wAAzP8AAFP/AAAA/wAA
+        AP8AAEj/AAAA/wAAAP8AAEH/AAAA/wAASP8AAEj/AAAA/wAAU/8AAMz/AADM/wAAzP8AAMz/AADM/wAA
+        ov8AAH7/AACx/wAAlf8AAGX/AABl/wAAlf8AALH/AAB+/wAAov8AAMz/AADM/wAAzP8AAMz/AADM/wAA
+        v/8AAGr/AACi/wAAjv8AAHX/AABl/wAAZf8AAHX/AACO/wAAo/8AAGr/AAC//wAAzP8AAMz/AADM/wAA
+        zP8AALT/AADA/wAAzP8AAMz/AADH/wAAc/8AAHP/AADH/wAAzP8AAMz/AADA/wAAtP8AAMz/AADM/wAA
+        zP8AAMz/AADM/wAAzP8AAMz/AADM/wAAzP8AAJb/AACW/wAAzP8AAMz/AADM/wAAzP8AAMz/AADM/wAA
+        zP8AAAAAAADM/wAAzP8AAMz/AADM/wAAzP8AAMz/AAC5/wAAuf8AAMz/AADM/wAAzP8AAMz/AADM/wAA
+        zP8AAAAAgAGsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAArEEAAKxBAACsQQAA
+        rEEAAKxBgAGsQQ==
+</value>
+  </data>
 </root>

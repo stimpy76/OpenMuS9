@@ -118,14 +118,14 @@
             this.convertToolStripMenuItem,
             this.exportToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+S";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -133,7 +133,7 @@
             // 
             this.convertToolStripMenuItem.Name = "convertToolStripMenuItem";
             this.convertToolStripMenuItem.ShortcutKeyDisplayString = "F5";
-            this.convertToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.convertToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.convertToolStripMenuItem.Text = "Convert";
             // 
             // exportToolStripMenuItem
@@ -142,20 +142,20 @@
             this.asTextToolStripMenuItem,
             this.xmlToolStripMenuItem});
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.exportToolStripMenuItem.Text = "Export";
             // 
             // asTextToolStripMenuItem
             // 
             this.asTextToolStripMenuItem.Name = "asTextToolStripMenuItem";
-            this.asTextToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.asTextToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
             this.asTextToolStripMenuItem.Text = "Text";
             this.asTextToolStripMenuItem.Click += new System.EventHandler(this.asTextToolStripMenuItem_Click);
             // 
             // xmlToolStripMenuItem
             // 
             this.xmlToolStripMenuItem.Name = "xmlToolStripMenuItem";
-            this.xmlToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.xmlToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
             this.xmlToolStripMenuItem.Text = "Xml";
             this.xmlToolStripMenuItem.Click += new System.EventHandler(this.xmlToolStripMenuItem_Click);
             // 
@@ -165,14 +165,14 @@
             this.searchToolStripMenuItem,
             this.goToLineToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
             this.editToolStripMenuItem.Text = "Tool";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+F";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.searchToolStripMenuItem.Text = "Search";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
@@ -180,7 +180,7 @@
             // 
             this.goToLineToolStripMenuItem.Name = "goToLineToolStripMenuItem";
             this.goToLineToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+G";
-            this.goToLineToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.goToLineToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.goToLineToolStripMenuItem.Text = "Go to line";
             this.goToLineToolStripMenuItem.Click += new System.EventHandler(this.goToLineToolStripMenuItem_Click);
             // 
@@ -266,7 +266,7 @@
             this.Name = "ClientEditor";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "zFileManager :: Client Editor";
+            this.Text = "OpenMuFileManager :: Client Editor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OnFormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
