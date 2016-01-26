@@ -6,8 +6,8 @@
 #define MAX_SERVER_LIST			400
 // -----------------------------------------------------------------------
 
-#define APP_NAME		"zConnectServer"
-#define	APP_VERSION_T	"1.0.0.0"
+#define APP_NAME		"OpenMu-CS"
+#define	APP_VERSION_T	"1.0.0.1"
 #define	APP_VERSION_N	1, 0, 0, 0
 #define	APP_DES			"MU Online ConnectServer emulator"
 // -----------------------------------------------------------------------

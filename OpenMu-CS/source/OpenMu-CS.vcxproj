@@ -78,8 +78,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
-    <None Include="small.ico" />
-    <None Include="zConnectServer.ico" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BlackList.h" />
@@ -130,6 +128,10 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="VMProtectSDK32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="OpenMu-small.ico" />
+    <Image Include="OpenMu.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
