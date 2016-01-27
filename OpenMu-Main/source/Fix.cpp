@@ -22,13 +22,13 @@ void gServerConnectionFix()
 	//memcpy(MainAddr_Eng,"127.0.0.1",13);
 	memcpy(MainAddr_Eng,ConnectIP,strlen(ConnectIP));
 	
-	char MainVersion[6] = "22345";
+	char MainVersion[6] = "22858";
 	char *Version   = (char*)(0x011B0F1A+6);
 	memset(Version,0,6);
 	memcpy(Version,MainVersion,strlen(MainVersion));
 
 
-	char MainSerial[17] = "xxxxxxxxxxxxxxxx";
+	char MainSerial[17] = "mUuJnr3Cdqp8hvxT";
 	char *SERIAL   = (char*)(0x011B0F2A-2);
 	memset(SERIAL,0,17);
 	memcpy(SERIAL,MainSerial,strlen(MainSerial));
