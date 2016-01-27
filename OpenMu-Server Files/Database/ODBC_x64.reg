@@ -1,0 +1,101 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\AccountDB]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MuOnlineJoinDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\LOGIN]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MuOnlineJoinDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\LocalServer]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\MU2003_EVENT_DB]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\MuOnline]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\MuOnlineAdmin]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\MuOnlineJoinDB]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MuOnlineJoinDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\PC_MUONLINE]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\PE_MUONLINE]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\MatchDB]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\Ranking]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\USELOG]
+"Driver"="c:\\Windows\\system32\\sqlncli10.dll"
+"Server"="(local)"
+"Database"="MyNewDB"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\ODBC Data Sources]
+"AccountDB"="SQL Server Native Client 10.0"
+"LOGIN"="SQL Server Native Client 10.0"
+"LocalServer"="SQL Server Native Client 10.0"
+"MU2003_EVENT_DB"="SQL Server Native Client 10.0"
+"MyNewDB"="SQL Server Native Client 10.0"
+"MuOnlineAdmin"="SQL Server Native Client 10.0"
+"MuOnlineJoinDB"="SQL Server Native Client 10.0"
+"PC_MUONLINE"="SQL Server Native Client 10.0"
+"PE_MUONLINE"="SQL Server Native Client 10.0"
+"MatchDB"="SQL Server Native Client 10.0"
+"Ranking"="SQL Server Native Client 10.0"
+"USELOG"="SQL Server Native Client 10.0"

@@ -1,0 +1,10 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Webzen]
+
+[HKEY_CURRENT_USER\Software\Webzen\Mu]
+
+[HKEY_CURRENT_USER\Software\Webzen\Mu\Config]
+"Resolution"=dword:00000000
+"ResolutionA"=dword:00000000
+

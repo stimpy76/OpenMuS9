@@ -1,0 +1,5 @@
+Copy WZ_MD5_MOD.dll to <drive>:\<path>\microsoft sql server\'INSTANCE_NAME'\tools\binn
+
+Run the following codes in Query Analyzer on Master database:
+
+exec sp_addextendedproc 'XP_MD5_EncodeKeyVal', 'WZ_MD5_MOD.dll'

@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Webzen]
+
+[HKEY_CURRENT_USER\Software\Webzen\Mu]
+
+[HKEY_CURRENT_USER\Software\Webzen\Mu\Config]
+"WindowMode"=dword:00000000
+"Resolution"=dword:00000001
+"ResolutionA"=dword:00000000
+
