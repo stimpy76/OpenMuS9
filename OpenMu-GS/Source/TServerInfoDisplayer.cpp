@@ -13,7 +13,7 @@ CLogToFile SERVER_CONN_STATE_LOG(LOG_NAME_CONNECT, LOG_PATH_CONNECT, 1);
 
 static char * ServerTypeText[1] =
 {
-	"GAMESERVER"
+	"OPENMU-GS"
 };
 
 static char * ErrorMessge[8] = 
@@ -225,7 +225,7 @@ void TServerInfoDisplayer::PaintAllInfo(HWND hWnd, int iTopLeftX, int iTopLeftY)
 	HFONT pOldFont = (HFONT)SelectObject(hDC, this->m_hFont);
 	SetTextColor(hDC, RGB(250, 250, 250));
 
-	TextOutA(hDC, GAMESERVER_WIDTH / 2 - 200, 18, ServerTypeText[0], strlen(ServerTypeText[0]));
+	TextOutA(hDC, GAMESERVER_WIDTH / 2 - 300, 18, ServerTypeText[0], strlen(ServerTypeText[0]));
 	SelectObject(hDC, pOldFont);
 	SetBkMode(hDC, iOldBkMode);
 	ReleaseDC(hWnd, hDC);
