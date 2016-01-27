@@ -23,15 +23,15 @@ public:
     HWND		WindowID;
     HINSTANCE	Instance;
     // ----
-    void		InitInstance(HINSTANCE Out)
+    void InitInstance(HINSTANCE Out)
     {
         this->Instance = Out;
         DialogBoxParam(this->Instance, MAKEINTRESOURCE(IDD_MAIN), NULL, Dialog_Main, NULL);
     }
     // ----
-    void		PrintLog(const char * Text, ...);
-    void		PrintText(const char * Text, ...);
-    void		PrintLine(BYTE Type)
+    void PrintLog(const char * Text, ...);
+    void PrintText(const char * Text, ...);
+    void PrintLine(BYTE Type)
     {
         switch(Type)
         {
@@ -45,9 +45,9 @@ public:
         }
     }
     // ----
-    void		SetTitle(HWND Window, const char * Text, ...);
+    void SetTitle(HWND Window, const char * Text, ...);
     // ----
-    void		UpdateInfo();
+    void UpdateInfo();
     // ----
 };
 extern Window g_Window;
