@@ -278,7 +278,7 @@ void SGAnsBuyCashItem(int aIndex,protocol::MSG_GTOS_BUY_ITEM_REQ * aRecv)
 
 		g_Window.ServerLogAdd(ST_CASHSHOPSERVER,"[BUY ANSWER] [%s] Start transaction POINTS: %d",aRecv->szCharName,CashPoint);
 
-		for(int i = 0; i < aRecv->dwCount; i++)
+		for(unsigned int i = 0; i < aRecv->dwCount; i++)
 		{
 			int Guid = aRecv->dwPriceGuids[i];
 

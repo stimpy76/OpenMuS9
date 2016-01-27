@@ -25,7 +25,8 @@
 #define ID_FILE_EXIT                    32772
 #define ID_OPTIONS_RELOADCASHSHOP       32773
 #define ID_HELP_ABOUTPRODUCT            32774
-#define IDC_STATIC                      -1
+#define IDC_STATIC1                     32776
+#define IDC_STATIC2						32777
 
 // Next default values for new objects
 // 
