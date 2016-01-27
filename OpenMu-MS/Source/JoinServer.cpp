@@ -698,7 +698,7 @@ int gObjSearchUser(char* szAccountID)
 			//if( gObj[i].Id[0] == szAccountID[0] &&
 			//	gObj[i].Id[1] == szAccountID[1] )
 			//{
-				if( _strcmpi(szAccountID,gObj[i].Id ) )
+				if( !strcmpi(szAccountID,gObj[i].Id ) )
 					return gObj[i].Index;
 			//}
 		}
