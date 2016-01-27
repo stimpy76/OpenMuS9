@@ -1,0 +1,40 @@
+[02:22:22] [ MuOnline ] connection successful !
+[02:22:22] [ MuOnline ] Party Matching connection successful !
+[02:22:22] [ MuOnline ] Guild Matching connection successful !
+[02:22:22] [ DataServer ] created on port [ 55962 ]
+[02:22:22] [ MU2003_EVENT_DB ] connection successful !
+[02:22:22] [ MuOnline ] connection successful !
+[02:22:22] [ EventServer ] created on port [ 44456 ]
+[02:22:22] Size: 16
+[02:28:47] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:28:47] [DataServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:30:09] [EventServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:30:09] [DataServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:30:09] [EventServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:30:09] [DataServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Close
+[02:30:48] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:30:48] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:42:20] [EventServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:42:20] [DataServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:42:20] [EventServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:42:20] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:43:04] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:43:04] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:49:35] [EventServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:49:35] [DataServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:49:35] [EventServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:49:35] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:54:25] [ MuOnline ] connection successful !
+[02:54:25] [ MuOnline ] Party Matching connection successful !
+[02:54:25] [ MuOnline ] Guild Matching connection successful !
+[02:54:25] [ DataServer ] created on port [ 55962 ]
+[02:54:25] [ MU2003_EVENT_DB ] connection successful !
+[02:54:25] [ MuOnline ] connection successful !
+[02:54:25] [ EventServer ] created on port [ 44456 ]
+[02:54:25] Size: 16
+[02:54:30] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:54:30] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[03:11:20] [DataServer] Connection Closed, dwIoSize == 0 (Index:1)
+[03:11:20] [EventServer] Connection Closed, dwIoSize == 0 (Index:0)
+[03:11:20] [EventServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[03:11:20] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close

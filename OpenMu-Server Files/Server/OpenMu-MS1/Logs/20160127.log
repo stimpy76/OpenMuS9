@@ -1,0 +1,236 @@
+[02:21:40] [ MuOnline ] connection successful !
+[02:21:40] [ MuOnline ] connection successful !
+[02:21:40] [ JoinServer ] created on port [ 55970 ]
+[02:21:40] [ MuOnline ] connection successful !
+[02:21:40] [ MuOnline ] Party Matching connection successful !
+[02:21:41] [ MuOnline ] Guild Matching connection successful !
+[02:21:41] [ DataServer ] created on port [ 55960 ]
+[02:21:41] [CashShopServer] [CashShop] Loaded 139 packages!
+[02:21:41] [CashShopServer] [CashShop] Loaded 149 products!
+[02:21:41] [ MuOnline ] connection successful !
+[02:21:41] [ CashShopServer ] created on port [ 55821 ]
+[02:21:41] Size: 16
+[02:28:47] [JoinServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:28:47] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:28:47] [DataServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:28:48] [DataServer] EXEC WZ_CS_GetCastleTotalInfo 0, 7
+[02:28:49] [DataServer] EXEC WZ_CS_GetCastleNpcInfo 0
+[02:28:49] [DataServer] EXEC WZ_CW_InfoLoad 0
+[02:28:49] [DataServer] exec GensServerInfo 0,30,7
+[02:30:09] [CashShopServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:30:09] [JoinServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:30:09] [DataServer] Connection Closed, dwIoSize == 0 (Index:2)
+[02:30:09] [CashShopServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:30:09] [JoinServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Close
+[02:30:09] [DataServer] [ Season 8 ][ 127.0.0.1:55901 ] GameServer Close
+[02:30:48] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:30:48] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:30:48] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:30:49] [DataServer] EXEC WZ_CS_GetCastleTotalInfo 0, 7
+[02:30:49] [DataServer] EXEC WZ_CS_GetCastleNpcInfo 0
+[02:30:49] [DataServer] EXEC WZ_CW_InfoLoad 0
+[02:30:49] [DataServer] exec GensServerInfo 0,30,7
+[02:42:20] [CashShopServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:42:20] [JoinServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:42:20] [DataServer] Connection Closed, dwIoSize == 0 (Index:2)
+[02:42:20] [CashShopServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:42:20] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:42:20] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:43:04] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:43:04] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:43:04] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:43:05] [DataServer] EXEC WZ_CS_GetCastleTotalInfo 0, 7
+[02:43:05] [DataServer] EXEC WZ_CS_GetCastleNpcInfo 0
+[02:43:05] [DataServer] EXEC WZ_CW_InfoLoad 0
+[02:43:05] [DataServer] exec GensServerInfo 0,30,7
+[02:43:50] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:43:50] [JoinServer] INSERT INTO MEMB_INFO (memb___id,memb__pwd,bloc_code,ctl1_code) VALUES ('test','test',0,0)
+[02:43:50] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:43:51] [JoinServer] SELECT memb__pwd FROM MEMB_INFO WHERE memb___id = 'test'
+[02:43:51] [JoinServer] exec WZ_CONNECT_MEMB 'test','Season 9','192.168.6.161'
+[02:43:51] [JoinServer] [ test ] User login
+[02:43:51] [JoinServer] SELECT PayCode,DATEDIFF(mi,GETDATE(),ExpireDate) as LeftTime,DATEPART(year,ExpireDate) as EYEAR,DATEPART(month,ExpireDate) as EMONTH,DATEPART(day,ExpireDate) as EDAY,DATEPART(hour,ExpireDate) as EHOUR,DATEPART(minute,ExpireDate) as EMINUTE FROM PremiumData WHERE AccountID = 'test'
+[02:43:51] [DataServer] SELECT Summoner FROM AccountCharacter WHERE Id = 'test'
+[02:43:51] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:44:01] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:44:01] [DataServer] exec WZ_CreateCharacter 'test', 'Test', '0'
+[02:44:01] [DataServer] UPDATE AccountCharacter SET GameID1='Test' WHERE Id='test'
+[02:44:01] [DataServer] SELECT cLevel FROM vCharacterPreview WHERE Name='Test'
+[02:44:05] [DataServer] SELECT cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint,ExInventory,Resets FROM Character WHERE Name='Test' AND AccountID = 'test'
+[02:44:05] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:44:05] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:44:05] [DataServer] UPDATE AccountCharacter SET GameIDC = 'Test' WHERE Id = 'test'
+[02:44:05] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:44:05] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:44:05] [DataServer] WZ_PeriodItemSelect 1, 'Test'
+[02:44:05] [DataServer] EXEC WZ_MLS_InfoLoad 'Test'
+[02:44:05] [DataServer] INSERT INTO Ertel_Inventory (UserName,ErtelList) VALUES ('Test',NULL)
+[02:44:05] [DataServer] INSERT INTO Ertel_Warehouse (AccountID,ErtelList) VALUES ('test',NULL)
+[02:44:05] [DataServer] EXEC WZ_QMK_InfoLoad 'Test'
+[02:44:05] [DataServer] SELECT memb_char FROM T_QuestEx_Info WHERE memb_char = 'Test'
+[02:44:05] [DataServer] INSERT INTO T_QuestEx_Info (memb_char,memb_quest) VALUES ('Test',CONVERT(BINARY(260),0))
+[02:44:05] [DataServer] SELECT memb_clan,memb_rank,memb_contribution,memb_reward FROM GensUserInfo WHERE memb_char = 'Test'
+[02:44:05] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:46:14] [DataServer] SELECT Name FROM OptionData WHERE Name='Test'
+[02:46:14] [DataServer] INSERT INTO OptionData (Name, GameOption, Qkey, Wkey, Ekey, ChatWindow, Rkey, QWERLevel) VALUES ('Test', 5, 255, 255, 255, 16, 255, 0)
+[02:46:20] [JoinServer] [ 192.168.6.161 ][ test ] Close User
+[02:46:20] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:46:20] [JoinServer] exec WZ_DISCONNECT_MEMB 'test'
+[02:46:20] [DataServer] UPDATE Character SET cLevel=1,Class=0,LevelUpPoint=0, Experience=0, Strength=18, Dexterity=18, Vitality=15, Energy=30, Money=0, Life=600.000000, MaxLife=600.000000, Mana=600.000000, MaxMana=600.000000, MapNumber=0, MapPosX=150, MapPosY=128, MapDir=4, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0,Resets=0 WHERE Name = 'Test'
+[02:46:20] [DataServer] EXEC WZ_QMK_InfoSave 'Test', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+[02:46:20] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:46:54] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:46:54] [JoinServer] SELECT memb__pwd FROM MEMB_INFO WHERE memb___id = 'test'
+[02:46:54] [JoinServer] exec WZ_CONNECT_MEMB 'test','Season 9','192.168.6.161'
+[02:46:54] [JoinServer] [ test ] User login
+[02:46:54] [JoinServer] SELECT PayCode,DATEDIFF(mi,GETDATE(),ExpireDate) as LeftTime,DATEPART(year,ExpireDate) as EYEAR,DATEPART(month,ExpireDate) as EMONTH,DATEPART(day,ExpireDate) as EDAY,DATEPART(hour,ExpireDate) as EHOUR,DATEPART(minute,ExpireDate) as EMINUTE FROM PremiumData WHERE AccountID = 'test'
+[02:46:54] [DataServer] SELECT Summoner FROM AccountCharacter WHERE Id = 'test'
+[02:46:54] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:46:54] [DataServer] SELECT cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test'
+[02:46:54] [DataServer] SELECT G_Status FROM GuildMember WHERE Name='Test'
+[02:46:56] [DataServer] SELECT cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint,ExInventory,Resets FROM Character WHERE Name='Test' AND AccountID = 'test'
+[02:46:56] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:46:56] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:46:56] [DataServer] UPDATE AccountCharacter SET GameIDC = 'Test' WHERE Id = 'test'
+[02:46:56] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:46:56] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:46:56] [DataServer] WZ_PeriodItemSelect 1, 'Test'
+[02:46:56] [DataServer] EXEC WZ_MLS_InfoLoad 'Test'
+[02:46:56] [DataServer] EXEC WZ_QMK_InfoLoad 'Test'
+[02:46:56] [DataServer] SELECT memb_char FROM T_QuestEx_Info WHERE memb_char = 'Test'
+[02:46:56] [DataServer] SELECT memb_clan,memb_rank,memb_contribution,memb_reward FROM GensUserInfo WHERE memb_char = 'Test'
+[02:46:56] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:47:21] [DataServer] SELECT Name FROM OptionData WHERE Name='Test'
+[02:47:21] [DataServer] UPDATE OptionData SET GameOption=5, Qkey=255, Wkey=255, Ekey=255, ChatWindow=16, Rkey=255, QWERLevel=0 WHERE Name='Test'
+[02:47:27] [JoinServer] [ 192.168.6.161 ][ test ] Close User
+[02:47:27] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:47:27] [JoinServer] exec WZ_DISCONNECT_MEMB 'test'
+[02:47:27] [DataServer] Message copy 1444
+[02:47:27] [DataServer] UPDATE Character SET cLevel=1,Class=0,LevelUpPoint=0, Experience=0, Strength=18, Dexterity=18, Vitality=15, Energy=30, Money=0, Life=600.000000, MaxLife=600.000000, Mana=600.000000, MaxMana=600.000000, MapNumber=0, MapPosX=142, MapPosY=121, MapDir=4, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0,Resets=0 WHERE Name = 'Test'
+[02:47:27] [DataServer] EXEC WZ_QMK_InfoSave 'Test', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+[02:47:27] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:49:35] [JoinServer] Connection Closed, dwIoSize == 0 (Index:1)
+[02:49:35] [CashShopServer] Connection Closed, dwIoSize == 0 (Index:0)
+[02:49:35] [DataServer] Connection Closed, dwIoSize == 0 (Index:2)
+[02:49:35] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:49:35] [CashShopServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[02:49:35] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[02:54:22] [ MuOnline ] connection successful !
+[02:54:22] [ MuOnline ] connection successful !
+[02:54:22] [ JoinServer ] created on port [ 55970 ]
+[02:54:22] [ MuOnline ] connection successful !
+[02:54:22] [ MuOnline ] Party Matching connection successful !
+[02:54:22] [ MuOnline ] Guild Matching connection successful !
+[02:54:22] [ DataServer ] created on port [ 55960 ]
+[02:54:22] [CashShopServer] [CashShop] Loaded 139 packages!
+[02:54:22] [CashShopServer] [CashShop] Loaded 149 products!
+[02:54:22] [ MuOnline ] connection successful !
+[02:54:22] [ CashShopServer ] created on port [ 55821 ]
+[02:54:22] Size: 16
+[02:54:30] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:54:30] [DataServer] SELECT ItemCount FROM GameServerInfo WHERE Number = 0
+[02:54:30] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Connect 
+[02:54:31] [DataServer] EXEC WZ_CS_GetCastleTotalInfo 0, 7
+[02:54:31] [DataServer] EXEC WZ_CS_GetCastleNpcInfo 0
+[02:54:31] [DataServer] EXEC WZ_CW_InfoLoad 0
+[02:54:31] [DataServer] exec GensServerInfo 0,30,7
+[02:55:16] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:55:16] [JoinServer] INSERT INTO MEMB_INFO (memb___id,memb__pwd,bloc_code,ctl1_code) VALUES ('test','test',0,0)
+[02:55:16] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:55:16] [JoinServer] SELECT memb__pwd FROM MEMB_INFO WHERE memb___id = 'test'
+[02:55:16] [JoinServer] exec WZ_CONNECT_MEMB 'test','Season 9','192.168.6.161'
+[02:55:16] [JoinServer] [ test ] User login
+[02:55:16] [JoinServer] SELECT PayCode,DATEDIFF(mi,GETDATE(),ExpireDate) as LeftTime,DATEPART(year,ExpireDate) as EYEAR,DATEPART(month,ExpireDate) as EMONTH,DATEPART(day,ExpireDate) as EDAY,DATEPART(hour,ExpireDate) as EHOUR,DATEPART(minute,ExpireDate) as EMINUTE FROM PremiumData WHERE AccountID = 'test'
+[02:55:16] [DataServer] SELECT Summoner FROM AccountCharacter WHERE Id = 'test'
+[02:55:16] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:55:24] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:55:24] [DataServer] exec WZ_CreateCharacter 'test', 'Test', '0'
+[02:55:24] [DataServer] UPDATE AccountCharacter SET GameID1='Test' WHERE Id='test'
+[02:55:24] [DataServer] SELECT cLevel FROM vCharacterPreview WHERE Name='Test'
+[02:55:26] [DataServer] SELECT cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint,ExInventory,Resets FROM Character WHERE Name='Test' AND AccountID = 'test'
+[02:55:26] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:55:26] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:55:26] [DataServer] UPDATE AccountCharacter SET GameIDC = 'Test' WHERE Id = 'test'
+[02:55:26] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:55:26] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:55:27] [DataServer] WZ_PeriodItemSelect 5, 'Test'
+[02:55:27] [DataServer] EXEC WZ_MLS_InfoLoad 'Test'
+[02:55:27] [DataServer] INSERT INTO Ertel_Inventory (UserName,ErtelList) VALUES ('Test',NULL)
+[02:55:27] [DataServer] INSERT INTO Ertel_Warehouse (AccountID,ErtelList) VALUES ('test',NULL)
+[02:55:27] [DataServer] EXEC WZ_QMK_InfoLoad 'Test'
+[02:55:27] [DataServer] SELECT memb_char FROM T_QuestEx_Info WHERE memb_char = 'Test'
+[02:55:27] [DataServer] INSERT INTO T_QuestEx_Info (memb_char,memb_quest) VALUES ('Test',CONVERT(BINARY(260),0))
+[02:55:27] [DataServer] SELECT memb_clan,memb_rank,memb_contribution,memb_reward FROM GensUserInfo WHERE memb_char = 'Test'
+[02:55:27] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:55:40] [DataServer] SELECT Name FROM OptionData WHERE Name='Test'
+[02:55:40] [DataServer] INSERT INTO OptionData (Name, GameOption, Qkey, Wkey, Ekey, ChatWindow, Rkey, QWERLevel) VALUES ('Test', 5, 255, 255, 255, 16, 255, 0)
+[02:55:45] [JoinServer] [ 192.168.6.161 ][ test ] Close User
+[02:55:45] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:55:45] [JoinServer] exec WZ_DISCONNECT_MEMB 'test'
+[02:55:45] [DataServer] UPDATE Character SET cLevel=1,Class=0,LevelUpPoint=0, Experience=0, Strength=18, Dexterity=18, Vitality=15, Energy=30, Money=0, Life=310.000000, MaxLife=600.000000, Mana=443.000000, MaxMana=600.000000, MapNumber=0, MapPosX=143, MapPosY=134, MapDir=2, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0,Resets=0 WHERE Name = 'Test'
+[02:55:45] [DataServer] EXEC WZ_QMK_InfoSave 'Test', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+[02:55:45] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:56:16] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:56:16] [JoinServer] SELECT memb__pwd FROM MEMB_INFO WHERE memb___id = 'test'
+[02:56:16] [JoinServer] exec WZ_CONNECT_MEMB 'test','Season 9','192.168.6.161'
+[02:56:16] [JoinServer] [ test ] User login
+[02:56:16] [JoinServer] SELECT PayCode,DATEDIFF(mi,GETDATE(),ExpireDate) as LeftTime,DATEPART(year,ExpireDate) as EYEAR,DATEPART(month,ExpireDate) as EMONTH,DATEPART(day,ExpireDate) as EDAY,DATEPART(hour,ExpireDate) as EHOUR,DATEPART(minute,ExpireDate) as EMINUTE FROM PremiumData WHERE AccountID = 'test'
+[02:56:16] [DataServer] SELECT Summoner FROM AccountCharacter WHERE Id = 'test'
+[02:56:16] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:56:16] [DataServer] SELECT cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test'
+[02:56:16] [DataServer] SELECT G_Status FROM GuildMember WHERE Name='Test'
+[02:56:18] [DataServer] SELECT cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint,ExInventory,Resets FROM Character WHERE Name='Test' AND AccountID = 'test'
+[02:56:18] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:56:18] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:56:18] [DataServer] UPDATE AccountCharacter SET GameIDC = 'Test' WHERE Id = 'test'
+[02:56:18] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:56:18] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:56:18] [DataServer] WZ_PeriodItemSelect 5, 'Test'
+[02:56:18] [DataServer] EXEC WZ_MLS_InfoLoad 'Test'
+[02:56:18] [DataServer] EXEC WZ_QMK_InfoLoad 'Test'
+[02:56:18] [DataServer] SELECT memb_char FROM T_QuestEx_Info WHERE memb_char = 'Test'
+[02:56:18] [DataServer] SELECT memb_clan,memb_rank,memb_contribution,memb_reward FROM GensUserInfo WHERE memb_char = 'Test'
+[02:56:18] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:56:34] [DataServer] SELECT Name FROM OptionData WHERE Name='Test'
+[02:56:34] [DataServer] UPDATE OptionData SET GameOption=5, Qkey=255, Wkey=255, Ekey=255, ChatWindow=16, Rkey=255, QWERLevel=0 WHERE Name='Test'
+[02:56:39] [JoinServer] [ 192.168.6.161 ][ test ] Close User
+[02:56:39] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:56:39] [JoinServer] exec WZ_DISCONNECT_MEMB 'test'
+[02:56:39] [DataServer] UPDATE Character SET cLevel=1,Class=0,LevelUpPoint=0, Experience=0, Strength=18, Dexterity=18, Vitality=15, Energy=30, Money=0, Life=600.000000, MaxLife=600.000000, Mana=600.000000, MaxMana=600.000000, MapNumber=0, MapPosX=142, MapPosY=121, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0,Resets=0 WHERE Name = 'Test'
+[02:56:39] [DataServer] EXEC WZ_QMK_InfoSave 'Test', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+[02:56:39] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:57:07] [JoinServer] SELECT memb_guid, memb___id, sno__numb, bloc_code from MEMB_INFO WHERE memb___id='test'
+[02:57:07] [JoinServer] SELECT memb__pwd FROM MEMB_INFO WHERE memb___id = 'test'
+[02:57:07] [JoinServer] exec WZ_CONNECT_MEMB 'test','Season 9','192.168.6.161'
+[02:57:07] [JoinServer] [ test ] User login
+[02:57:07] [JoinServer] SELECT PayCode,DATEDIFF(mi,GETDATE(),ExpireDate) as LeftTime,DATEPART(year,ExpireDate) as EYEAR,DATEPART(month,ExpireDate) as EMONTH,DATEPART(day,ExpireDate) as EDAY,DATEPART(hour,ExpireDate) as EHOUR,DATEPART(minute,ExpireDate) as EMINUTE FROM PremiumData WHERE AccountID = 'test'
+[02:57:08] [DataServer] SELECT Summoner FROM AccountCharacter WHERE Id = 'test'
+[02:57:08] [DataServer] SELECT * FROM AccountCharacter WHERE Id = 'test'
+[02:57:08] [DataServer] SELECT cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test'
+[02:57:08] [DataServer] SELECT G_Status FROM GuildMember WHERE Name='Test'
+[02:57:09] [DataServer] SELECT cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint,ExInventory,Resets FROM Character WHERE Name='Test' AND AccountID = 'test'
+[02:57:09] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:57:09] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:57:09] [DataServer] UPDATE AccountCharacter SET GameIDC = 'Test' WHERE Id = 'test'
+[02:57:09] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:57:09] [DataServer] SELECT * FROM OptionData WHERE Name='Test'
+[02:57:09] [DataServer] WZ_PeriodItemSelect 5, 'Test'
+[02:57:09] [DataServer] EXEC WZ_MLS_InfoLoad 'Test'
+[02:57:10] [DataServer] EXEC WZ_QMK_InfoLoad 'Test'
+[02:57:10] [DataServer] SELECT memb_char FROM T_QuestEx_Info WHERE memb_char = 'Test'
+[02:57:10] [DataServer] SELECT memb_clan,memb_rank,memb_contribution,memb_reward FROM GensUserInfo WHERE memb_char = 'Test'
+[02:57:10] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[02:57:44] [DataServer] SELECT Name FROM OptionData WHERE Name='Test'
+[02:57:44] [DataServer] UPDATE OptionData SET GameOption=5, Qkey=255, Wkey=255, Ekey=255, ChatWindow=16, Rkey=255, QWERLevel=0 WHERE Name='Test'
+[02:57:49] [DataServer] SELECT * FROM PartyMatching_InfoData WHERE PartyLeader = 'Test'
+[02:57:49] [JoinServer] [ 192.168.6.161 ][ test ] Close User
+[02:57:49] [JoinServer] exec WZ_DISCONNECT_MEMB 'test'
+[02:57:49] [DataServer] UPDATE Character SET cLevel=1,Class=0,LevelUpPoint=0, Experience=0, Strength=18, Dexterity=18, Vitality=15, Energy=30, Money=0, Life=600.000000, MaxLife=600.000000, Mana=600.000000, MaxMana=600.000000, MapNumber=0, MapPosX=141, MapPosY=120, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0,Resets=0 WHERE Name = 'Test'
+[02:57:49] [DataServer] EXEC WZ_QMK_InfoSave 'Test', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+[02:57:49] [DataServer] EXEC WZ_MLS_InfoSave 'Test', 0, 0, 0, 0
+[03:11:20] [JoinServer] Connection Closed, dwIoSize == 0 (Index:1)
+[03:11:20] [CashShopServer] Connection Closed, dwIoSize == 0 (Index:0)
+[03:11:20] [DataServer] Connection Closed, dwIoSize == 0 (Index:2)
+[03:11:20] [CashShopServer] [  ][ 127.0.0.1:0 ] GameServer Close
+[03:11:20] [DataServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close
+[03:11:20] [JoinServer] [ Season 9 ][ 127.0.0.1:55901 ] GameServer Close

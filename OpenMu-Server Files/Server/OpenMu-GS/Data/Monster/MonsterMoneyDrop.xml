@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Extra monster zen drop configuration
+// ----------------------------------------------------------------------------------
+// Revision: 	22:50 27.09.2014
+//===================================================================================
+-->
+<monstermoneydrop>
+	<enabled>1</enabled>	<!-- 0: Disabled, 1: Enabled -->
+	
+	<!--
+	id:			Monster id from Monster.xml (-1: Any)
+	levelmin:	Min. level of monster (-1: Any)
+	levelmax:	Max. level of monster (-1: Any)
+	map:		Rule only for N map (-1: Any)
+	moneymin:	Min. money amount
+	moneymax:	Max. money amount
+	rate:		Rate of drop money (N / 10000)
+	-->
+	<monsterlist>
+		<monster id="19" levelmin="-1" levelmax="-1" map="-1" rate="6000"/>
+		<monster id="20" levelmin="-1" levelmax="-1" map="-1" moneymin="10" moneymax="11" rate="6000"/>
+		<monster id="1" levelmin="-1" levelmax="-1" map="-1" moneymin="10" moneymax="11" rate="10000"/> <!-- Test -->
+	</monsterlist>
+</monstermoneydrop>

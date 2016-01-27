@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//===================================================================================
+// zGameServer
+// ----------------------------------------------------------------------------------
+// Description: Notice & news rotation settings
+// ----------------------------------------------------------------------------------
+// Revision: 	7:12 04.04.2014
+//===================================================================================
+-->
+<notice>
+	<!--
+	type:	0 = Gold, 1 = System, 2: Whisper, 3: Party, 4: Guild, 5: Alliance, 6: Gens
+	delay:	Rotation delay (minutes)
+	-->
+	<!-- Notice on connect -->
+	<connect>
+		<message type="0">zTeam - Unique Season 8</message>
+	</connect>
+	<!-- Notice on gameplay -->
+	<rotate>
+		<message type="0" delay="15">www.z-team.pro</message>
+	</rotate>
+</notice>
