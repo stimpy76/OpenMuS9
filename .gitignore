@@ -212,7 +212,6 @@ _Pvt_Extensions/
 ModelManifest.xml
 /OpenMuS9.VC.opendb
 
-.vs/
 Release/
 ipch/
 Debug/
@@ -220,5 +219,35 @@ OpenMuS9.sdf
 
 OpenMu-CS/source/Release/
 OpenMu-CS/source/Debug/
+
+OpenMuDBManger/Source/bin/
+OpenMuDBManger/Source/obj/
+
+OpenMuFileManager/Source/bin/
+OpenMuFileManager/Source/obj/
+
+OpenMu-GS/*.suo
+OpenMu-GS/crypto/Win32/
+OpenMu-GS/crypto/TestData/
+OpenMu-GS/crypto/TestVectors/
+OpenMu-GS/crypto/GGSvr/Debug/
+OpenMu-GS/crypto/GGSvr/Release/
+OpenMu-GS/Lua/source/*.obj
+OpenMu-GS/Source/Debug/
+OpenMu-GS/Source/Release/
+
+OpenMuLoader/*.suo
+OpenMuLoader/source/Debug/
+OpenMuLoader/source?Release/
+
+OpenMu-Main/*.suo
+OpenMu-Main/source/Debug/
+OpenMu-Main/source/Release/
+
+OpenMu-MS/*.suo
+OpenMu-MS/Source/Debug/
+OpenMu-MS/Source/Release/
+
+
 
 
