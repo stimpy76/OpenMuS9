@@ -18,7 +18,7 @@ CCSAuth2::CCSAuth2()
 	this->m_bPrtcRef = 0;
 	this->m_dwUserFlag = 0;
 	this->m_pProtocol = NULL;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 }
 
 CCSAuth2::~CCSAuth2()
@@ -47,7 +47,7 @@ void CCSAuth2::Init()
 	this->m_bPrtcRef = 0;
 	this->m_dwUserFlag = 0;
 	this->m_pProtocol = NULL;
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 }
 
 
